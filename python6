@@ -1,0 +1,29 @@
+cursos_lista = ["Python", "Java", "JavaScript", "PHP"]
+print(cursos_lista)
+
+# adicionar um elemento no final da lista
+cursos_lista.append("SQL")
+print(cursos_lista)
+
+# inserindo elementos em um local especifico da lista
+cursos_lista.insert(3, "HTML")
+print(cursos_lista)
+
+# apagando um item de lista
+cursos_lista.pop(3)
+print(cursos_lista)
+
+# exibindo trechos da lista
+print(cursos_lista[::-1])
+
+# apagando um item de lista com base no valor
+cursos_lista.remove("Java")
+print(cursos_lista)
+
+# ordenando um item de lista pelo valor
+cursos_lista.sort()
+print(cursos_lista)
+
+# invertendo a ordem de uma lista
+cursos_lista.reverse()
+print(cursos_lista.reverse())
